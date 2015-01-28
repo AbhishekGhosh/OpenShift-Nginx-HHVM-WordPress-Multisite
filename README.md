@@ -9,7 +9,7 @@ It is Beta.
 
 ### Command line
 ```bash
-$ rhc app create whateverappname http://cartreflect-claytondev.rhcloud.com/github/tengyifei/openshift-cartridge-nginx-hhvm
+$ rhc app create whateverappname https://github.com/AbhishekGhosh/OpenShift-Nginx-HHVM-WordPress-Multisite.git
 $ cd whateverappnam
 $ git add .
 $ git commit -m 'Multi Testing'
