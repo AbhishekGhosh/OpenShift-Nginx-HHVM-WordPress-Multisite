@@ -8,13 +8,8 @@ It is Beta.
 ## Usage
 
 ### Command line
-```bash
-$ rhc app create whateverappname https://github.com/AbhishekGhosh/OpenShift-Nginx-HHVM-WordPress-Multisite.git
-$ cd whateverappnam
-$ git add .
-$ git commit -m 'Multi Testing'
-$ git push
-```
+
+Create an empty DIY cartige. clone this repo and push it. You can not directly run rhc command as this repo is bigger than max allowed limit.
 
 ### Updating Cartridge
 
