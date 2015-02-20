@@ -1,32 +1,41 @@
-# OpenShift HHVM Cartridge
+# OpenShift Nginx HHVM with WordPress Multisite 
 
-Nginx + HHVM 3.5.0 + WordPress as Normal Version to Allow Mod
+Nginx + HHVM 3.5.0 + WordPress as Normal Version to Allow Mod.
+If you want to run OpenShift Nginx HHVM with WordPress Multisite, you can read my guide here : [OpenShift Nginx HHVM WordPress Multisite Guide](https://thecustomizewindows.com/2015/01/openshift-nginx-hhvm-wordpress-multisite/)
 
-GNU GPL 3.0 material, no warrenty of working rightly! 
-It is Beta.
+## About OpenShift Nginx HHVM with WordPress Multisite Repo
 
-## Usage
+This repo is NOT intended to be used or forked. 
+You should use the fork - https://github.com/AbhishekGhosh/openshift-cartridge-nginx-hhvm or the orginal repo - https://github.com/tengyifei/openshift-cartridge-nginx-hhvm
 
-### Command line
+### Credits and Licences
 
-Create an empty DIY cartige. clone this repo and push it. You can not directly run rhc command as this repo is bigger than max allowed limit.
+I am not a Licencing advocate. Credits belongs to many peoples as described in the original repo or their forks. I can not say, which License should be applied. 
 
-### Updating Cartridge
+In short, 
 
-```bash
-rhc ssh get-your-url
-# In SSH
-cd nginx-hhvm
-bin/control update
-```
+1. [Yifei Teng developed the cartige](https://github.com/tengyifei/openshift-cartridge-nginx-hhvm) 
+2. which is partially based on [pinodex's work](https://github.com/pinodex/openshift-nginx-php-fpm)
+3. which in turn based on [Nginx PHP5-FPM](https://github.com/getupcloud/openshift-nginx-php-fpm) by Getup Cloud.
+4. Also read credits of [PHP-FPM](http://php-fpm.org/about/) 
+5. [HHVM](https://github.com/facebook/hhvm)
+6. [OpenShift](http://www.openshift.org)
+7. [Linux Kernel](https://github.com/torvalds/linux)
+8. You can start reading the History from [UNIX](http://en.wikipedia.org/wiki/Unix)
+9. go through [History of Unix](http://en.wikipedia.org/wiki/History_of_Unix)
+10. Ohhh... read the credits of [Nginx](http://nginx.org/en/)
+11. original [PHP](http://php.net/credits.php)
+12. [WordPress](https://wordpress.org/about/)
 
-## HHVM
+However, credit and copyright of the article [OpenShift Nginx HHVM WordPress Multisite Guide](https://thecustomizewindows.com/2015/01/openshift-nginx-hhvm-wordpress-multisite/) belongs to me.
 
-The HHVM packaged with this cartridge is built directly from the newest released version of HHVM source and WordPress. You will need a MySQl cart and add the database details to install WordPress. 
-You can change to multi, you can do anything.
+### Reason of modification of this readme
 
-## Configuration
+See the issues - https://github.com/AbhishekGhosh/OpenShift-Nginx-HHVM-WordPress-Multisite/issues/1#issuecomment-75196306
 
-nginx .conf files should be inside config/nginx.d/
+### This is not an active repo
 
-config.hdf should be inside config/hhvm.d/
+This is not an active repo. It might be updated, might not be updated or fully deleted keeping few files. Some files has been changed while beta development of the original repo or repos. You should not look at them. This repo worked like a clipboard before.  
+
+
+
